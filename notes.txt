@@ -1,0 +1,61 @@
+Q1. Why is it better to add <script> section in the body rather than head section?
+
+A. Browser generally parses from top to bottom. So if while parsing the HTML file it finds a lot of javascript code written in the head section, then it will take a lot of time to load. So its better to write it in the body section.
+
+Q2. console.log("Hello World");
+
+A. It is a statement that means "we want to log(keep track of) a message "Hello World" into the console"
+
+Q3. Javascript in Node -- Node is a runtime environment to execute JS code
+
+$ node .\index.js
+
+A. V8 is the JavaScript engine that powers Node.js. It's also used in Google Chrome and desktop apps like Electron. V8 is written in C++ by Google and is available on systems that use x64, IA-32, and ARM processors. It can run on Mac, Windows, Linux, and other systems, and can also be embedded into any C++ application. 
+
+Q4. What is V8?
+
+A. V8 is open-source and high-performance. It translates JavaScript code into machine code, which computers can understand, and then executes the compiled code. V8 also optimizes JavaScript execution. 
+
+V8 was chosen to power Node.js in 2009, and is now a key feature that powers a large amount of server-side code written in JavaScript. The current Node.js engine can't work without V8, as it would have no JavaScript engine and wouldn't be able to run JavaScript code. 
+
+
+Q5. ES6 -- var 
+    after ES6 better to use let to declare variables
+
+Q6. Rules for naming a variable
+
+ // 1. Cannot be a reserved keyword
+ // 2. Should be meaningful
+ // 3. Cannot start with a number (1name)
+ // 4. Cannot contain a spce or hyphen(-)
+ // 5. CamelCase (firstName)
+ // 6. Case Sensitive
+
+ Q7. Types in JavaScript
+
+ A. Primitive/ Value Types and Reference Types
+    Under Primitive we have --
+    1. String
+    2. Number
+    3. Boolean
+    4. undefined
+    5. null
+
+    Reference Types --
+    1. Objects
+    2. Arrays
+    3. Functions
+
+Q8. Languages
+
+A. Two types:
+    1. Static(Statically-typed)
+        one whose data type cannot be changed during runtime.
+        EX: string name = "Arka";
+    2. Dynamic(Dynamically-Typed)
+        one whose data type can be changed at runtime.  
+        EX: let name = "Arka";
+    
+    So, JS is a Dynamic Language.
+
+ 
